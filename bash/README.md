@@ -43,3 +43,17 @@ On each run, the script will ask you to first select your AWS Profile, and then 
     - Copies the selected SSH key to the selected EC2 instance.
     - This is useful if you need to use SSH to connect to the instance directly for things like VSCode's Remote SSH extension, or SCP for moving files to and from the instance.
         - This will require setting up a ProxyCommand in your SSH config file, to use the SSM Session Manager to connect to the instance. The script does not do this for you at the moment. 
+
+## Other things to note
+
+Don't like the color scheme, or it doesn't work well because you're one of those people who likes to use a light terminal theme? You can easily change the colors in the script. Just look for the `*_style` variables towards the top of the script and change the color codes to your liking.
+
+## Contributing
+
+If you have any ideas for features, or find any bugs, please feel free to open an issue. I'm always looking for ways to improve the script.
+
+Ideally, I'll be rewriting this script in Python and Go, to make it more portable, and cross-platform. But for now, it's just a simple bash script. If you'd like to help with a Go or Python version, please let me know.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

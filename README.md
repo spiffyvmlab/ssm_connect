@@ -2,6 +2,8 @@
 
 This script simplifies managing AWS EC2 instances through AWS Systems Manager (SSM), allowing for easy connection, port forwarding, and SSH key management.
 
+I started this as a practical way for me to explore the Charmbracelet suite of tools, and to make my life easier when working with AWS. It's a work in progress, and I'm always looking for ways to improve it.
+
 ## Features
 
 - Connect to EC2 instances using SSM.

@@ -1,0 +1,1 @@
+// Placeholder for future development of Go version of SSM Connect
